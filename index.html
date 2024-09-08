@@ -8,53 +8,57 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong"
+    />
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header><h1>❈ Welcome to the Portuguese Poem Generator ❈</h1></header>
-    <br />
+    <div class="container">
+      <header><h1>❈ AI Portuguese Poem Generator ❈</h1></header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic for the Portuguese poem..."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <br />
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic for the Portuguese poem..."
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
 
-      <div>
-        Deus quer, o homem sonha, a obra nasce.
-        <br />
-        Deus quis que a terra fosse toda uma,
-        <br />
-        Que o mar unisse, já não separasse.
-      </div>
-    </main>
-    <br />
+        <div class="poem">
+          Deus quer, o homem sonha, a obra nasce.
+          <br />
+          Deus quis que a terra fosse toda uma,
+          <br />
+          Que o mar unisse, já não separasse.
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/NinnaMTR" target="_blank"
-        >Mariana Ramalhete</a
-      >
-      and is
-      <a
-        href="https://github.com/NinnaMTR/portuguese-poems-generator"
-        target="_blank"
-        >open-sourced on Github</a
-      >
-      and is hosted on
-      <a
-        href="https://ai-portuguese-poem-generator.netlify.app/"
-        target="_blank"
-        >Netifly</a
-      >.
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/NinnaMTR" target="_blank"
+          >Mariana Ramalhete</a
+        >
+        and is
+        <a
+          href="https://github.com/NinnaMTR/portuguese-poems-generator"
+          target="_blank"
+          >open-sourced on Github</a
+        >
+        and is
+        <a
+          href="https://ai-portuguese-poem-generator.netlify.app/"
+          target="_blank"
+          >hosted on Netifly</a
+        >.
+      </footer>
+    </div>
 
     <script src="src/index.js"></script>
   </body>
