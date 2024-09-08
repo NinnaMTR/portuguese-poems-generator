@@ -2,6 +2,11 @@ body {
   background-color: purple;
 }
 
-h1 {
+h1,
+a {
+  color: white;
+}
+
+footer {
   color: white;
 }
